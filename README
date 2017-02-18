@@ -1,0 +1,17 @@
+Oracle Memory Uitilization script shows you the amount of memory resources used by Oracle database(s) on a server
+for every ORACLE_HOME located on it.
+
+Example:
+
+$ ./omemutil.sh
+
+*** Oracle memory utilization ***
+
+**************************************************
+$ORACLE_HOME=/u01/app/oracle/product/11.2/db_1
+
+orcl            3134.92 Mb
+chicago         1105.25 Mb
+boston          10303.5 Mb
+                ----------
+Total:          14641 Mb
